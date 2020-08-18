@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Link, Switch, Route} from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
@@ -7,12 +7,6 @@ import Login from './Components/Login';
 import Dashboard from './Components/Dashboard';
 
 function App() {
-const [form, setForm] = useState({
-  username: 'Lambda School',
-  password: 'i<3Lambd4'
-});
-const [loading, setLoading] = useState(false);
-
   return (
     <section>
       <header>
