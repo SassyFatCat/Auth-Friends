@@ -92,7 +92,7 @@ useEffect(() => {
                 </div>
 
                 <div className='addfriend'>
-                    <h3>Add Friend</h3>
+                    <h3>{editing.is ? ('Edit Friend') : ('Add Friend')}</h3>
                         <form>
                         <label>Name: </label>
                         <input
